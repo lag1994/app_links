@@ -25,7 +25,7 @@ function MainFunc() {
     const submitChackin = event => {
         event.preventDefault();
 
-        axios.post(`http://79.143.31.216/squeeze?link=${squeeze.squeeze}`, {}, {
+        axios.post(`https://79.143.31.216/squeeze?link=${squeeze.squeeze}`, {}, {
             headers: {
                 Authorization: `Bearer ${localStorage.token}`,
             },
