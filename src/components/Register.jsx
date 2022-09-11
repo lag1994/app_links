@@ -29,7 +29,7 @@ function Register() {
         if (register.password !== register.password2) {
             alert("Ваши пароли не совпадают")
         } else {
-            axios.post(`https://79.143.31.216/register?username=${register.username}&password=${register.password}`, {
+            axios.post(`http://79.143.31.216/register?username=${register.username}&password=${register.password}`, {
                 username: register.username,
                 password: register.password,
 
