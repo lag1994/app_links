@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function LinksTo() {
 
   let a = localStorage.short
-  let myLink = 'https://79.143.31.216/s/' + a
+  let myLink = 'http://79.143.31.216/s/' + a
 
   return (
     <div className="App">

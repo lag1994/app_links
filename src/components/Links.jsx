@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 function Links() {
 
-    const baseUrl='https://79.143.31.216/statistics'
+    const baseUrl='http://79.143.31.216/statistics'
 
     const [data, setData] = useState([])
 
@@ -66,7 +66,7 @@ function Links() {
                         (item=>(
                             <tr>
                             <td>{item.id}</td>
-                            <td>https://79.143.31.216/s/{item.short}</td>
+                            <td>http://79.143.31.216/s/{item.short}</td>
                             <td>{item.target}</td>
                             <td>{item.counter}</td>
                             </tr>

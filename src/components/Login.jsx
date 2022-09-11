@@ -30,7 +30,7 @@ function Login() {
         params.append('username', login.username);
         params.append('password', login.password);
 
-            axios.post('https://79.143.31.216/login', params
+            axios.post('http://79.143.31.216/login', params
             ).then(response => {
 
                     localStorage.setItem('token', response.data.access_token)
