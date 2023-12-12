@@ -4,6 +4,7 @@ import { useState } from "react";
 
 
 function Login() {
+    console.log('test')
 
     const [login, setLogin] = useState(() => {
         return {
